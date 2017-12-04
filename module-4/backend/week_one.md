@@ -46,4 +46,4 @@ C - grabs info from the model, and tailors it for the view
 tailoring how you store things in your database (including storing strings vs integers/indexing/etc.), and caching
 
 13. What's a background worker? When would we want to use a background worker?
-handle any delegated operations in the background (that we don't want taking up) - sidekiq was the one we used in mod 3
+handles any delegated operations in the background (that we don't want taking up resources) - sidekiq was the one we used in mod 3
