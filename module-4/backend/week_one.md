@@ -47,3 +47,15 @@ tailoring how you store things in your database (including storing strings vs in
 
 13. What's a background worker? When would we want to use a background worker?
 handles any delegated operations in the background (that we don't want taking up resources) - sidekiq was the one we used in mod 3
+
+4. What is the syntax for invoking a function? Give an example.
+5. What's `this` in JavaScript?
+6. What is Webpack and why is it useful?
+7. When/why do you want to use event delegation?
+8. What's `npm` and what do we use it for?
+
+#### Review  
+9. What's the MVC design pattern? Describe each part of MVC.
+10. What are a few ways to optimize a Rails application?
+11. What's a background worker? When would we want to use a background worker?
+
