@@ -11,7 +11,7 @@ basic JS syntax/vocabulary - it helps me talk through problems, and set up simpl
 dev tools: source code/debugger/console/element/network
 
 3. What are some tools you need in order to unit test your JavaScript?
-mocha/chai
+mocha - framework/chai - library
 
 4. What is the syntax for invoking a function?
 functionName() - the parentheses at the end
@@ -65,7 +65,7 @@ webpack is our new asset pipeline
 it minimizes and concatenates our css, js, sass, svgs, etc - and packages them to be sent to the browswer
 
 7. When/why do you want to use event delegation?
-a good use case would be applying event delegation when assigning an event listener to the parent element (which bubbles up to the child elements), instead of to 1 specific node
+a good use case would be applying event delegation when assigning an event listener to the parent element (allowing you to listen for click/whatever events on any of the child elements - and even go as far as to tell you which one), instead of to 1 specific node
 
 8. What's `npm` and what do we use it for?
 node package manager - it's our new bundler
@@ -74,5 +74,14 @@ manage our packages/dependencies
 
 #### Review  
 9. What's the MVC design pattern? Describe each part of MVC.
+model - view - Controller
+model: handles the blueprint for the object, interacts with database
+view: makes things pretty, holds template for the webpage
+controller: gets info from the model - passes it to the view
+
 10. What are a few ways to optimize a Rails application?
+background workers, caching, indexing/compound indexing on the db, materialized views (and caching those), using activerecord over ruby (but SQL always wins - biased opinion)
+
 11. What's a background worker? When would we want to use a background worker?
+it handles tasks in the background - for example - you could have a background worker making your api calls, storing the info in your db for easy retrieval
+-you could also use one when sending confirmation emails
