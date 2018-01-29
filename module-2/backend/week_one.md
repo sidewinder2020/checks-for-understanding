@@ -40,6 +40,7 @@ end
 9. What's the purpose of ERB?
 interpolation
 10. Why do I need a development AND test database?
+<<<<<<< HEAD
 the tests rely on a mock database, but the development relies on the database, created from the migration - user doesn't need access to the test database
 11. What's responsive design?
 design and development respond to the user's interactions
@@ -75,3 +76,29 @@ the model allows you to pull information from the database
 Agile works piece by piece, following through with step 1, then step 2, etc. of the process for that piece, waterfall you do all of step 1, step 2, etc.
 22. What is the difference between `#new` and `#create`?
 Create: creates a new instance and saves it, New: only creates a new instance
+=======
+11. What is CRUD and why is it important?
+12. What does HTTP stand for? 
+13. What are the two ways to interpolate Ruby in an ERB view template? What's the difference between these two ways?
+14. What's an ORM?
+15. What's the most commonly used ORM in ruby (Sinatra & Rails)?
+16. Let's say we have an application with restaurants. There are seven verb + path combinations necessary to provide full CRUD functionality for our restaurant application. List each of the seven combinations, and explain what each is for.
+17. What's a migration? 
+18. When you create a migration, does it automatically modify your database?
+19. How does a model relate to a database?
+20. What is the difference between `#new` and `#create`?
+
+Review Questions:  
+21. Given a CSV file (“films.csv”) with these headers [id, title, description], how would you load these into your database to create new instances of Film?  
+22. Given the following hash:
+```
+activities = {
+  hiking: {cost: $0, supplies: ['hiking shoes', 'water', 'compass']},
+  karaoke: {cost: $10, supplies: ['courage', 'microphone'],
+  brunch: {cost: $35, supplies: ['mimosa flutes'],
+  antiquing: {cost: $200, supplies: ['list of antique stores'] 
+}
+```
+How would I add 'granola bar' to things you should have when hiking?
+23. What are the 4 Principles of OOP? Give a one sentence explanation of each.
+>>>>>>> 2fb14b2e0e3ed48c9764bf58cbb7e1fedd592c5b
